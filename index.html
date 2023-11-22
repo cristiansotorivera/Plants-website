@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyBay</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Libre+Baskerville&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <img class="top_icons" src="./images/assets/leaf.png" alt="leaf">
+            <h1>EasyBay</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for anything">   
+            </div>
+            <p>
+            <button class="sign_in">Sign In</button>
+            </p>
+            <button >
+                <img class="top_icons" onclick="alerta()" id="cart" src="./images/assets/cart-dark.png" alt="cart" >
+            </button>  
+        </nav>
+        <!-- products options nav -->
+        <nav id="nav_button">
+            <ul>
+                <li><a  href="#">Aeonium</a></li>
+                <li><a  href="#">Andormischus</a></li>
+                <li><a  href="#">Agave</a></li>
+                <li><a  href="#">Aloe</a></li>
+                <li><a  href="#">Anacampseros</a></li>
+                <li><a  href="#">Aristaloe</a></li>
+                <li><a  href="#">More...</a></li>
+            </ul> 
+      
+        </nav>
+    </header>
+    <main>
+        <div class="main_center">
+            <h2>Your Source for Serious Succulent Specialties</h2>
+          
+        </div>
+        <div class="boxes">
+            <div class="box_left">
+                <p> Discover succulent varieties one pot or rack at a time! </p>
+                <p>Discover → </p>
+            </div>
+            <div class="box_left">
+                
+                <img onmouseover="cambia_imagen(this)" onmouseout="regresa_imagen(this)" src="./images/assets/succulents-1.jpg" alt="suculents" class="sucu1">
+                
+                
+                <!-- Right column -->
+            </div>
+            <div class="right">
+                <div class="box_right">
+                    <img src="./images/assets/aloe-m.jpg" alt="Aloe" id="aloe">   
+                </div>
+                <div class="box_right_bottom">
+                    <p> Soothing Aloe →</p> 
+                </div> 
+                
+            </div>  
+        </div>
+
+        <!-- bottom box -->
+
+        <div class="boxes">
+            <div class="box_bottom">
+                <div class="divpic">
+                    <img  src="./images/assets/aeonium-s.jpg" alt="aeonium" class="bottom_img"> 
+                    <span class="description"> Aeonium</span>
+                </div>
+                <div class="divpic">
+                    <img  src="./images/assets/aloe-s.jpg" alt="aeonium" class="bottom_img"> 
+                    <span class="description"> Aloe</span>
+                </div>
+                <div class="divpic">
+                    <img  src="./images/assets/cactus-s.jpg" alt="aeonium" class="bottom_img"> 
+                    <span class="description"> Cactus</span>
+                </div>
+                <div class="divpic">
+                    <img  src="./images/assets/echeveria-s.jpg" alt="aeonium" class="bottom_img"> 
+                    <span class="description"> Echeveria</span>
+                </div>
+                <div class="divpic">
+                    <img  src="./images/assets/sedum-s.jpg" alt="aeonium" class="bottom_img"> 
+                    <span class="description"> Sedum</span>
+                </div>
+                <div class="divpic">
+                    <img  src="./images/assets/sempervivum-s.jpg" alt="aeonium" class="bottom_img"> 
+                    <span class="description"> Sempervivum</span>
+                </div>
+                 
+
+            </div>   
+        </div>
+    </main>
+    <footer>
+        <div class="cookie">
+            <img src="./images/assets/alert-dark.png" alt="cookie">
+            <div>
+                
+                <p>
+                    This site makes use of third-party cookies, by clicking " I accept" you agree to the terms outlined in our <a href="#">cookie policy.</a>
+                </p>
+            </div>
+            <button id="cookie_button" onclick="eliminar_cookies()">I accept!</button>
+        </div>
+
+    </footer>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

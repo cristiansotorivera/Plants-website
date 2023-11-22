@@ -1,0 +1,245 @@
+/*  CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Quicksand', sans-serif;
+    /* Font family */
+}
+/* aqui cambio el color de background de toda la pag */
+header {
+    background-color: white;
+    padding: 10px 0 ;
+   
+}
+
+/* Brand leaf Title */
+.top_icons {
+    background-color: #32c3bc;
+    height: 40px;
+    border-radius: 5px;
+    
+   
+}
+
+/* Search bar */
+.search-bar {
+    display: flex;
+    align-items:center;   
+}
+
+.search-bar input {
+    width: 650px;
+    padding: 10px;
+    margin-right: 30px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    
+}
+
+/* Styling top buttons */
+#cart {  
+    border: none;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    border-width: 0;
+    padding-left: 10px;
+}
+
+ nav button {
+    border-radius: 50%;
+    border: none;
+    background-color: white;   
+} 
+
+#nav_button {
+    border-bottom: 3px solid black;
+}
+
+/* Medidas nav*/
+nav {
+width: 1000px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+/* selecciono el ul del nav */
+nav ul {
+    display: flex;
+    list-style: none;
+    flex: 1;
+    justify-content: space-between;
+    margin: 20px 0 10px 0;     
+}
+
+h1, nav a {
+    color: black;
+    text-decoration: none;     
+}
+
+h1, h2 {
+    font-size: 30px;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+    font-weight: normal;
+}
+/* main title center page */
+.main_center {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: center;
+    padding: 20px 0 ;
+}
+
+
+/* boxes main area */
+.boxes {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content;  
+   }
+
+
+
+/* left boxes*/
+.box_left p {
+    font-size: 27px;
+    margin-top: 50px;
+    width: 320px;
+}
+/* left box style */
+.box_left {
+    text-align: center;
+    background-color: #32c3bc;
+    color: white;
+    height: 320px;  
+}
+
+ .discover{
+    width: 250px;
+}
+
+.box_left img {
+   height: 320px;
+}
+
+/* right column */
+.right {
+    width: 340px;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.right p {
+    padding: 30px;
+}
+
+.box_right {
+    flex: 1; /* mismo tamaño */
+    height: 220px;
+    background-color:  #32c3bc;
+    color: white;
+    margin-bottom: 20px;    
+}
+
+.box_right_bottom {
+    flex: 1; 
+    height: 80px;
+    text-align: justify;
+    background-color:  #32c3bc;
+    color: white;
+    margin-bottom: 10px; 
+    
+
+}
+
+#aloe {
+    width: 100%;
+    height: 100%;     
+}
+
+
+
+/* bottom succulent pictures */
+
+.box_bottom {
+
+    width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    background-color: #b6edeb;
+    color: white;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.box_bottom img {
+    height: 120px;
+    border-radius: 50%;
+    padding-top: 10px;
+      
+ }
+
+ .description {
+    font-size: small;
+    color: black;
+ }
+
+ .divpic {
+    text-align: center;
+    margin-top: 20px;  
+ }
+
+
+
+/* Footer and cookie alert */
+.footer {
+    position: fixed;/* fija elemento en espacia ignorando el scroll */
+    bottom: 0; 
+    width: 100%;
+}
+
+.cookie {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightgray;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+
+}
+
+.cookie img {
+    margin-right: 30px;
+}
+
+#cookie_button {
+
+    box-shadow: 3px 4px 0px 0px #122433;
+    background-color: #32c3bc;
+    color: white;
+    border: solid black;
+    padding: 10px 20px;
+    margin-right: 30px;
+    width: 110px;
+    height: 40px;
+    
+}
